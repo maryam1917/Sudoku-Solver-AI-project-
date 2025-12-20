@@ -103,7 +103,7 @@ def hill_climbing_sudoku(grid):
 # INPUT SUDOKU 
 # -------------------------------------------------
 grid = [
-    [5, 6, 0, 0, 7, 0, 0, 0, 0],
+    [5, 3, 0, 0, 7, 0, 0, 0, 0],
     [6, 0, 0, 1, 9, 5, 0, 0, 0],
     [0, 9, 8, 0, 0, 0, 0, 6, 0],
 
@@ -125,3 +125,4 @@ print("Final heuristic value (conflicts):", h)
 print("Final Sudoku State:")
 for row in solution:
     print(row)
+
