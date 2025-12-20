@@ -9,7 +9,6 @@ digits = '123456789'
 def cross(a, b):
     return [x + y for x in a for y in b]
 
-#Creates combinations of row labels and column labels Ex: ["A1", "A2", ..., "I9"]  (81 boxes)
 boxes = cross(rows, cols)
 row_units = [cross(r, cols) for r in rows]
 column_units = [cross(rows, c) for c in cols]
