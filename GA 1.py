@@ -125,7 +125,6 @@ PM = 0.1
 
 # Probability of crossover
 PC = 0.95
-#credits to MojTabaa4
 # Main genetic algorithm function
 def genetic_algorithm(initial_file):
     initial = readPuzzle(initial_file)
@@ -153,3 +152,4 @@ for c in r:
         layout(c)
 
         break
+
