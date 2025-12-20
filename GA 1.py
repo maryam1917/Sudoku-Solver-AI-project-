@@ -140,7 +140,7 @@ def genetic_algorithm(initial_file):
             return population
     return population
 tic = time.time()
-r = genetic_algorithm(r"D:\GA soduko\new 2.txt")
+r = genetic_algorithm(r"new 2.txt")
 toc = time.time()
 print("time_taken: ", toc - tic)
 fit = [fitnessf(c) for c in r]
@@ -151,4 +151,5 @@ print(max(fit))
 for c in r:
     if fitnessf(c) == m:
         layout(c)
+
         break
